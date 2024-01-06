@@ -128,6 +128,9 @@ ENV/
 env.bak/
 venv.bak/
 
+#(my environment name)
+envi/  
+
 # Spyder project settings
 .spyderproject
 .spyproject
