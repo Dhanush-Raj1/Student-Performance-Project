@@ -132,6 +132,7 @@ venv.bak/
 envi/  
 
 # artifacts folder 
+artifacts/
 .artifacts/
 
 # Spyder project settings
