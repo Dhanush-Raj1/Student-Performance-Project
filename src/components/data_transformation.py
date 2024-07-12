@@ -1,4 +1,8 @@
 import sys
+import os
+from src.exception import CustomException
+from src.logger import logging
+
 from dataclasses import dataclass
 
 import numpy as np
@@ -8,9 +12,6 @@ from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
-from src.exception import CustomException
-from src.logger import logging
-import os
 
 from src.utils import save_object
 
